@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="280mm" height="165mm" viewBox="0 0 280 165">
+  <title>SensWear V1R1 lower tray — 165 × 115 mm</title>
+  <desc>
+    One-to-one millimetre drawing of the lower SensWear packaging insert. The tray contains
+    pockets for the debug PCB, coiled pogo cable and separately isolated curved battery.
+    Red geometry is the pocket and perimeter geometry.
+  </desc>
+
+  <defs>
+    <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="3.2" markerHeight="3.2" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#334155"/>
+    </marker>
+    <style>
+      .page { fill: #ffffff; }
+      .tray-fill { fill: #eef2f7; }
+      .pocket-fill { fill: #ffffff; }
+      .assumed-fill { fill: #fff7ed; }
+      .battery-fill { fill: #fef2f2; }
+      .cut { fill: none; stroke: #dc2626; stroke-width: 0.25; vector-effect: non-scaling-stroke; }
+      .dim-line { fill: none; stroke: #334155; stroke-width: 0.22; marker-start: url(#dim-arrow); marker-end: url(#dim-arrow); }
+      .ext-line { stroke: #94a3b8; stroke-width: 0.18; }
+      .guide { fill: none; stroke: #94a3b8; stroke-width: 0.18; stroke-dasharray: 1.2 1.2; }
+      .isolation { fill: none; stroke: #ea580c; stroke-width: 0.28; stroke-dasharray: 1.6 1.2; }
+      .title { font: 700 5px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 2.8px Arial, sans-serif; fill: #475569; }
+      .label { font: 700 3.2px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 400 2.5px Arial, sans-serif; fill: #334155; text-anchor: middle; }
+      .tiny { font: 400 2.15px Arial, sans-serif; fill: #475569; }
+      .dim-text { font: 700 2.7px Arial, sans-serif; fill: #334155; text-anchor: middle; }
+      .legend-head { font: 700 3.2px Arial, sans-serif; fill: #0f172a; }
+      .legend { font: 400 2.35px Arial, sans-serif; fill: #334155; }
+      .warning { font: 700 2.25px Arial, sans-serif; fill: #9a3412; }
+      .danger { font: 700 2.25px Arial, sans-serif; fill: #b91c1c; }
+      .coord { font: 400 2.1px Consolas, monospace; fill: #334155; }
+    </style>
+  </defs>
+
+  <rect width="280" height="165" class="page"/>
+  <text x="20" y="8" class="title">SensWear V1R1 — lower accessory tray</text>
+  <text x="20" y="12.2" class="subtitle">
+    Drawing units: millimetres · geometry scale: 1:1 · finished insert: 165 × 115 × 20 mm
+  </text>
+
+  <!-- Overall dimensions -->
+  <g id="OVERALL_DIMENSIONS" inkscape:groupmode="layer" inkscape:label="OVERALL_DIMENSIONS">
+    <line x1="20" y1="25" x2="20" y2="17" class="ext-line"/>
+    <line x1="185" y1="25" x2="185" y2="17" class="ext-line"/>
+    <line x1="20" y1="18.5" x2="185" y2="18.5" class="dim-line"/>
+    <rect x="95" y="16.4" width="15" height="4.2" fill="#ffffff"/>
+    <text x="102.5" y="19.5" class="dim-text">165 mm</text>
+
+    <line x1="20" y1="25" x2="11.5" y2="25" class="ext-line"/>
+    <line x1="20" y1="140" x2="11.5" y2="140" class="ext-line"/>
+    <line x1="13" y1="25" x2="13" y2="140" class="dim-line"/>
+    <g transform="translate(13 82.5) rotate(-90)">
+      <rect x="-8" y="-2" width="16" height="4" fill="#ffffff"/>
+      <text x="0" y="1" class="dim-text">115 mm</text>
+    </g>
+  </g>
+
+  <!-- Tray body shading; non-manufacturing -->
+  <g id="POCKET_SHADING" inkscape:groupmode="layer" inkscape:label="POCKET_SHADING">
+    <rect x="20" y="25" width="165" height="115" class="tray-fill"/>
+    <rect x="28" y="35" width="48" height="43" rx="3" class="pocket-fill"/>
+    <rect x="97" y="53" width="80" height="60" rx="8" class="assumed-fill"/>
+    <rect x="32" y="104" width="45" height="25" rx="5" class="battery-fill"/>
+  </g>
+
+  <!--
+    MANUFACTURING GEOMETRY
+    Tray-local origin is the upper-left corner at document coordinate (20,25).
+    Use the red paths as the perimeter/pocket toolpaths. Pocket depths are annotations;
+    do not automatically treat every path as a through-cut.
+  -->
+  <g id="CUT_GEOMETRY" inkscape:groupmode="layer" inkscape:label="CUT_GEOMETRY" class="cut">
+    <!-- Finished tray perimeter: 165 × 115 mm -->
+    <rect id="tray-perimeter" x="20" y="25" width="165" height="115"/>
+
+    <!-- Pockets; coordinates below are relative to the tray-local origin -->
+    <rect id="debug-pcb-pocket" x="28" y="35" width="48" height="43" rx="3" ry="3"
+      data-local-x-mm="8" data-local-y-mm="10" data-width-mm="48" data-height-mm="43"
+      data-depth-mm="10"/>
+    <rect id="pogo-cable-pocket" x="97" y="53" width="80" height="60" rx="8" ry="8"
+      data-local-x-mm="77" data-local-y-mm="28" data-width-mm="80" data-height-mm="60"
+      data-depth-mm="16"/>
+    <rect id="curved-battery-pocket" x="32" y="104" width="45" height="25" rx="5" ry="5"
+      data-local-x-mm="12" data-local-y-mm="79" data-width-mm="45" data-height-mm="25"
+      data-depth-mm="10"/>
+  </g>
+
+  <!-- Battery isolation zone and minimum-wall guide -->
+  <g id="CLEARANCE_GUIDES" inkscape:groupmode="layer" inkscape:label="CLEARANCE_GUIDES">
+    <rect x="25" y="30" width="155" height="105" class="guide"/>
+    <rect x="29" y="101" width="51" height="31" rx="7" class="isolation"/>
+    <text x="54.5" y="98.5" class="warning" text-anchor="middle">51 × 31 mm nonconductive isolation zone</text>
+    <text x="103" y="137.2" class="tiny" text-anchor="middle">Dashed grey boundary = 5 mm minimum perimeter wall</text>
+  </g>
+
+  <!-- Pocket labels and exact sizes -->
+  <g id="ANNOTATIONS" inkscape:groupmode="layer" inkscape:label="ANNOTATIONS">
+    <text x="52" y="50" class="label">DEBUG PCB</text>
+    <text x="52" y="55" class="small">board 40 × 35 mm</text>
+    <text x="52" y="60" class="small">POCKET 48 × 43</text>
+    <text x="52" y="65" class="small">DEPTH 10</text>
+
+    <text x="137" y="69" class="label">POGO CABLE</text>
+    <text x="137" y="74" class="small">assumed coil ≤ 70 × 50 × 15</text>
+    <text x="137" y="79" class="small">POCKET 80 × 60</text>
+    <text x="137" y="84" class="small">DEPTH 16</text>
+    <path d="M114 95 C124 80 150 80 160 95 C168 108 141 109 134 98 C129 90 147 88 150 98"
+      fill="none" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round"/>
+
+    <text x="54.5" y="112" class="label" style="font-size:2.8px">CURVED BATTERY</text>
+    <text x="54.5" y="116.5" class="small">assumed ≤ 40 × 20 × 6</text>
+    <text x="54.5" y="121" class="small">45 × 25 · DEPTH 10</text>
+    <path d="M39 126.5 Q54.5 109.5 70 126.5" fill="none" stroke="#64748b" stroke-width="1.8"/>
+
+    <text x="25" y="146" class="warning">RED = CUT/POCKET GEOMETRY. All values are millimetres.</text>
+    <text x="25" y="150.2" class="tiny">
+      The pogo-cable and battery pockets implement the previous assumed envelopes and require physical sample-fit approval.
+    </text>
+    <text x="25" y="154" class="danger">
+      Battery must be restrained in nonconductive inner packaging with protected terminals; the orange isolation zone is not a cut path.
+    </text>
+  </g>
+
+  <!-- Coordinate schedule -->
+  <g id="POCKET_SCHEDULE" inkscape:groupmode="layer" inkscape:label="POCKET_SCHEDULE">
+    <rect x="197" y="24" width="75" height="116" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="31" class="legend-head">POCKET SCHEDULE</text>
+    <text x="201" y="35.3" class="legend">Origin: tray upper-left = X0, Y0</text>
+    <text x="201" y="39" class="legend">X/Y locate pocket upper-left.</text>
+
+    <text x="201" y="45" class="coord">Debug   X8  Y10 48×43  R3  D10</text>
+    <text x="201" y="50" class="coord">Pogo    X77 Y28 80×60  R8  D16</text>
+    <text x="201" y="55" class="coord">Battery X12 Y79 45×25  R5  D10</text>
+
+    <line x1="201" y1="61" x2="268" y2="61" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="67" class="legend-head">STRUCTURAL CLEARANCES</text>
+    <text x="201" y="72" class="legend">Minimum outside wall: 8 mm</text>
+    <text x="201" y="76" class="legend">Debug-to-battery wall: 26 mm</text>
+    <text x="201" y="80" class="legend">Pogo right-side wall: 8 mm</text>
+    <text x="201" y="84" class="legend">Debug-to-pogo wall: 21 mm</text>
+
+    <line x1="201" y1="90" x2="268" y2="90" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="96" class="legend-head">BATTERY ZONE</text>
+    <text x="201" y="101" class="legend">Pocket: 45 × 25 × 10 mm</text>
+    <text x="201" y="105" class="legend">Isolation zone: 51 × 31 mm</text>
+    <text x="201" y="109" class="legend">Keep conductive parts outside zone.</text>
+
+    <line x1="201" y1="115" x2="268" y2="115" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="121" class="legend-head">CAM NOTE</text>
+    <text x="201" y="126" class="legend">Pocket depth D is a Z-depth, not</text>
+    <text x="201" y="130" class="legend">a through-cut instruction. Confirm</text>
+    <text x="201" y="134" class="legend">tool radius and foam process first.</text>
+    <text x="201" y="138" class="warning">Verify actual cable and battery samples.</text>
+  </g>
+</svg>

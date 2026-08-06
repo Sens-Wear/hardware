@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  width="280mm" height="165mm" viewBox="0 0 280 165">
+  <title>SensWear V1R1 upper tray — 165 × 115 mm</title>
+  <desc>
+    One-to-one millimetre drawing of the upper SensWear packaging insert. The tray contains
+    pockets for the main, touch, PPG, haptic and temperature PCBs, the 100 mm 11-pin FFC,
+    and the smart-ring enclosure. Red geometry is the pocket and perimeter geometry.
+  </desc>
+
+  <defs>
+    <marker id="dim-arrow" viewBox="0 0 10 10" refX="5" refY="5"
+      markerWidth="3.2" markerHeight="3.2" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#334155"/>
+    </marker>
+    <style>
+      .page { fill: #ffffff; }
+      .tray-fill { fill: #eef2f7; }
+      .pocket-fill { fill: #ffffff; }
+      .assumed-fill { fill: #fff7ed; }
+      .cut { fill: none; stroke: #dc2626; stroke-width: 0.25; vector-effect: non-scaling-stroke; }
+      .dim-line { fill: none; stroke: #334155; stroke-width: 0.22; marker-start: url(#dim-arrow); marker-end: url(#dim-arrow); }
+      .ext-line { stroke: #94a3b8; stroke-width: 0.18; }
+      .guide { fill: none; stroke: #94a3b8; stroke-width: 0.18; stroke-dasharray: 1.2 1.2; }
+      .title { font: 700 5px Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 2.8px Arial, sans-serif; fill: #475569; }
+      .label { font: 700 3px Arial, sans-serif; fill: #0f172a; text-anchor: middle; }
+      .small { font: 400 2.45px Arial, sans-serif; fill: #334155; text-anchor: middle; }
+      .tiny { font: 400 2.15px Arial, sans-serif; fill: #475569; }
+      .dim-text { font: 700 2.7px Arial, sans-serif; fill: #334155; text-anchor: middle; }
+      .legend-head { font: 700 3.2px Arial, sans-serif; fill: #0f172a; }
+      .legend { font: 400 2.35px Arial, sans-serif; fill: #334155; }
+      .warning { font: 700 2.25px Arial, sans-serif; fill: #9a3412; }
+      .coord { font: 400 2.1px Consolas, monospace; fill: #334155; }
+    </style>
+  </defs>
+
+  <rect width="280" height="165" class="page"/>
+  <text x="20" y="8" class="title">SensWear V1R1 — upper presentation tray</text>
+  <text x="20" y="12.2" class="subtitle">
+    Drawing units: millimetres · geometry scale: 1:1 · finished insert: 165 × 115 × 14 mm
+  </text>
+
+  <!-- Overall dimensions -->
+  <g id="OVERALL_DIMENSIONS" inkscape:groupmode="layer" inkscape:label="OVERALL_DIMENSIONS">
+    <line x1="20" y1="25" x2="20" y2="17" class="ext-line"/>
+    <line x1="185" y1="25" x2="185" y2="17" class="ext-line"/>
+    <line x1="20" y1="18.5" x2="185" y2="18.5" class="dim-line"/>
+    <rect x="95" y="16.4" width="15" height="4.2" fill="#ffffff"/>
+    <text x="102.5" y="19.5" class="dim-text">165 mm</text>
+
+    <line x1="20" y1="25" x2="11.5" y2="25" class="ext-line"/>
+    <line x1="20" y1="140" x2="11.5" y2="140" class="ext-line"/>
+    <line x1="13" y1="25" x2="13" y2="140" class="dim-line"/>
+    <g transform="translate(13 82.5) rotate(-90)">
+      <rect x="-8" y="-2" width="16" height="4" fill="#ffffff"/>
+      <text x="0" y="1" class="dim-text">115 mm</text>
+    </g>
+  </g>
+
+  <!-- Tray body shading; non-manufacturing -->
+  <g id="POCKET_SHADING" inkscape:groupmode="layer" inkscape:label="POCKET_SHADING">
+    <rect x="20" y="25" width="165" height="115" class="tray-fill"/>
+    <rect x="27" y="33" width="110" height="15" rx="2" class="pocket-fill"/>
+    <circle cx="161" cy="49" r="19" class="assumed-fill"/>
+    <rect x="28" y="76" width="28" height="15" rx="2" class="pocket-fill"/>
+    <rect x="91" y="76" width="23" height="15" rx="2" class="pocket-fill"/>
+    <rect x="154" y="77" width="19" height="12" rx="2" class="pocket-fill"/>
+    <rect x="31" y="113" width="58" height="16" rx="2" class="pocket-fill"/>
+    <rect x="115" y="114" width="59" height="14" rx="2" class="pocket-fill"/>
+  </g>
+
+  <!--
+    MANUFACTURING GEOMETRY
+    Tray-local origin is the upper-left corner at document coordinate (20,25).
+    Use the red paths as the perimeter/pocket toolpaths. Pocket depths are annotations;
+    do not automatically treat every path as a through-cut.
+  -->
+  <g id="CUT_GEOMETRY" inkscape:groupmode="layer" inkscape:label="CUT_GEOMETRY" class="cut">
+    <!-- Finished tray perimeter: 165 × 115 mm -->
+    <rect id="tray-perimeter" x="20" y="25" width="165" height="115"/>
+
+    <!-- Pockets; coordinates below are relative to the tray-local origin -->
+    <rect id="ffc-pocket" x="27" y="33" width="110" height="15" rx="2" ry="2"
+      data-local-x-mm="7" data-local-y-mm="8" data-width-mm="110" data-height-mm="15"
+      data-depth-mm="4"/>
+    <circle id="ring-pocket" cx="161" cy="49" r="19"
+      data-local-cx-mm="141" data-local-cy-mm="24" data-diameter-mm="38"
+      data-depth-mm="12"/>
+    <rect id="ppg-pcb-pocket" x="28" y="76" width="28" height="15" rx="2" ry="2"
+      data-local-x-mm="8" data-local-y-mm="51" data-width-mm="28" data-height-mm="15"
+      data-depth-mm="6"/>
+    <rect id="haptic-pcb-pocket" x="91" y="76" width="23" height="15" rx="2" ry="2"
+      data-local-x-mm="71" data-local-y-mm="51" data-width-mm="23" data-height-mm="15"
+      data-depth-mm="6"/>
+    <rect id="temperature-pcb-pocket" x="154" y="77" width="19" height="12" rx="2" ry="2"
+      data-local-x-mm="134" data-local-y-mm="52" data-width-mm="19" data-height-mm="12"
+      data-depth-mm="5"/>
+    <rect id="main-pcb-pocket" x="31" y="113" width="58" height="16" rx="2" ry="2"
+      data-local-x-mm="11" data-local-y-mm="88" data-width-mm="58" data-height-mm="16"
+      data-depth-mm="7"/>
+    <rect id="touch-pcb-pocket" x="115" y="114" width="59" height="14" rx="2" ry="2"
+      data-local-x-mm="95" data-local-y-mm="89" data-width-mm="59" data-height-mm="14"
+      data-depth-mm="5"/>
+  </g>
+
+  <!-- Minimum-wall guides -->
+  <g id="CLEARANCE_GUIDES" inkscape:groupmode="layer" inkscape:label="CLEARANCE_GUIDES">
+    <rect x="25" y="30" width="155" height="105" class="guide"/>
+    <text x="103" y="137.2" class="tiny" text-anchor="middle">Dashed boundary = 5 mm minimum perimeter wall</text>
+  </g>
+
+  <!-- Pocket labels and exact sizes -->
+  <g id="ANNOTATIONS" inkscape:groupmode="layer" inkscape:label="ANNOTATIONS">
+    <text x="82" y="38.7" class="label">11-pin FFC</text>
+    <text x="82" y="42.4" class="small">100 mm cable envelope</text>
+    <text x="82" y="46" class="small">POCKET 110 × 15 · DEPTH 4</text>
+
+    <text x="161" y="45.8" class="label">RING</text>
+    <text x="161" y="49.7" class="small">assumed ≤ Ø32</text>
+    <text x="161" y="53.6" class="small">POCKET Ø38</text>
+    <text x="161" y="57.4" class="small">DEPTH 12</text>
+
+    <text x="42" y="81.6" class="label">PPG</text>
+    <text x="42" y="85.2" class="small">21.8 × 8.5</text>
+    <text x="42" y="88.8" class="small">28 × 15 · D6</text>
+
+    <text x="102.5" y="81.6" class="label">HAPTIC</text>
+    <text x="102.5" y="85.2" class="small">16.6 × 8.5</text>
+    <text x="102.5" y="88.8" class="small">23 × 15 · D6</text>
+
+    <text x="163.5" y="81.7" class="label" style="font-size:2.45px">TEMP</text>
+    <text x="163.5" y="85" class="small" style="font-size:2.05px">13 × 5.5</text>
+    <text x="163.5" y="88" class="small" style="font-size:2px">19 × 12 · D5</text>
+
+    <text x="60" y="118.7" class="label">MAIN PCB</text>
+    <text x="60" y="122.5" class="small">board 50.5 × 8.5</text>
+    <text x="60" y="126.2" class="small">POCKET 58 × 16 · D7</text>
+
+    <text x="144.5" y="119.1" class="label">TOUCH PCB</text>
+    <text x="144.5" y="122.6" class="small">board 51.6 × 6.5</text>
+    <text x="144.5" y="126" class="small">59 × 14 · D5</text>
+
+    <text x="25" y="146" class="warning">RED = CUT/POCKET GEOMETRY. All values are millimetres.</text>
+    <text x="25" y="150.2" class="tiny">
+      PCB sizes are measured envelopes. Accessory pockets implement the previous assumptions and require sample-fit approval.
+    </text>
+    <text x="25" y="154" class="tiny">
+      Recommended fit tolerance is already included in each stated pocket size; do not enlarge again without a trial insert.
+    </text>
+  </g>
+
+  <!-- Coordinate schedule -->
+  <g id="POCKET_SCHEDULE" inkscape:groupmode="layer" inkscape:label="POCKET_SCHEDULE">
+    <rect x="197" y="24" width="75" height="116" rx="2" fill="#f8fafc" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="31" class="legend-head">POCKET SCHEDULE</text>
+    <text x="201" y="35.3" class="legend">Origin: tray upper-left = X0, Y0</text>
+    <text x="201" y="39" class="legend">X/Y locate pocket upper-left unless noted.</text>
+
+    <text x="201" y="45" class="coord">FFC    X7   Y8   110×15  R2  D4</text>
+    <text x="201" y="50" class="coord">Ring   CX141 CY24 Ø38        D12</text>
+    <text x="201" y="55" class="coord">PPG    X8   Y51  28×15   R2  D6</text>
+    <text x="201" y="60" class="coord">Haptic X71  Y51  23×15   R2  D6</text>
+    <text x="201" y="65" class="coord">Temp   X134 Y52  19×12   R2  D5</text>
+    <text x="201" y="70" class="coord">Main   X11  Y88  58×16   R2  D7</text>
+    <text x="201" y="75" class="coord">Touch  X95  Y89  59×14   R2  D5</text>
+
+    <line x1="201" y1="80" x2="268" y2="80" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="86" class="legend-head">STRUCTURAL CLEARANCES</text>
+    <text x="201" y="91" class="legend">Minimum outside wall: 5 mm</text>
+    <text x="201" y="95" class="legend">FFC-to-ring wall: 5 mm</text>
+    <text x="201" y="99" class="legend">Small-board row gaps: ≥35 mm</text>
+    <text x="201" y="103" class="legend">Main-to-touch wall: 26 mm</text>
+    <text x="201" y="107" class="legend">Lowest pocket bottom wall: 11 mm</text>
+
+    <line x1="201" y1="112" x2="268" y2="112" stroke="#cbd5e1" stroke-width="0.25"/>
+    <text x="201" y="118" class="legend-head">CAM NOTE</text>
+    <text x="201" y="123" class="legend">Pocket depth D is a Z-depth, not</text>
+    <text x="201" y="127" class="legend">a through-cut instruction. Confirm</text>
+    <text x="201" y="131" class="legend">tool radius and foam process first.</text>
+    <text x="201" y="136" class="warning">Verify assembled component heights.</text>
+  </g>
+</svg>
