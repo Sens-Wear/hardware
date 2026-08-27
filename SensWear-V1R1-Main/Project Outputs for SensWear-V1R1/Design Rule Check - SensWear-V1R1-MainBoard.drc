@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\salamid1\Desktop\Projects\SenseWear\Hardware\hardware-v1\SensWear-V1R1-Main\PCB\SensWear-V1R1-MainBoard.PcbDoc
-Date     : 28/06/2026
-Time     : 18.30.56
+PCB File : D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R1-Main\PCB\SensWear-V1R1-MainBoard.PcbDoc
+Date     : 8/26/2026
+Time     : 10:19:07 AM
 
 Processing Rule : Clearance Constraint (Gap=0.2mm) (IsTrack),(IsBGA)
 Rule Violations :0
@@ -21,25 +21,25 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC33_1'))
+Processing Rule : Width Constraint (Min=0.14mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC33_1'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC37_2'))
+Processing Rule : Width Constraint (Min=0.14mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC37_2'))
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.076mm) (Max=1mm) (Preferred=0.1mm) (All)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetL4_1'))
+Processing Rule : Width Constraint (Min=0.14mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetL4_1'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetANT1_1'))
+Processing Rule : Width Constraint (Min=0.14mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetANT1_1'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.254mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC36_2'))
+Processing Rule : Width Constraint (Min=0.14mm) (Max=0.265mm) (Preferred=0.265mm) (InNet('NetC36_2'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.076mm) (Max=0.254mm) (Preferred=0.254mm) (IsTrack and HasParameter('Impedance') and HasParameterValue('Impedance', '50'))
+Processing Rule : Width Constraint (Min=0.076mm) (Max=0.14mm) (Preferred=0.14mm) (IsTrack and HasParameter('Impedance') and HasParameterValue('Impedance', '50'))
 Rule Violations :0
 
 Processing Rule : Routing Layers(All)
@@ -85,4 +85,4 @@ Rule Violations :0
 
 Violations Detected : 1
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00

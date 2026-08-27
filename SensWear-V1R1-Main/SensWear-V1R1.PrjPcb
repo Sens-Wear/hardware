@@ -38,8 +38,8 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-CrossRefSheetStyle=1
-CrossRefLocationStyle=1
+CrossRefSheetStyle=0
+CrossRefLocationStyle=0
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
@@ -377,15 +377,99 @@ DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-S
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for SensWear-V1R1\Design Rule Check - SensWear-V1R1-MainBoard.html
+DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear-V1R1-MainBoard.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear-V1R0-MainBoard.csv
+DocumentPath=Project Outputs for SensWear-V1R1\Design Rule Check - SensWear-V1R1-MainBoard.html
 DItemRevisionGUID=
 
 [GeneratedDocument4]
+DocumentPath=Output\Manufacturing\Assembly\Generates pick and place files\Pick Place for SensWear-V1R0-MainBoard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument5]
 DocumentPath=Output\Manufacturing\Fabrication\Generates pick and place files\Pick Place for SensWear-V1R0-MainBoard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Output\Manufacturing\BoardStack\Pick Place\Pick Place for SensWear-V1R1-MainBoard.csv
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-MainBoard-NonPlated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-MainBoard-Plated.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-MainBoard.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.G1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.G2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GM
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Output\Manufacturing\Fabrication\NC Drill Files\SensWear-V1R1-MainBoard.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Output\Manufacturing\Fabrication\Gerber Files\SensWear-V1R1-MainBoard.REP
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Output\Manufacturing\BoardStack\Report Board Stack\SensWear-V1R1-MainBoard.xls
 DItemRevisionGUID=
 
 [Parameter1]
@@ -394,11 +478,11 @@ Value=1
 
 [Parameter2]
 Name=RevisionDate
-Value=01.03.2026
+Value=31.08.2026
 
 [Parameter3]
 Name=Revision
-Value=B0
+Value=C0
 
 [Parameter4]
 Name=Project
