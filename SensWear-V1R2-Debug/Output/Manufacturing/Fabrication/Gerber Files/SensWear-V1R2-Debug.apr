@@ -32,9 +32,9 @@ D44   ROUNDED            15.748      15.748       0.000  LINE       0.000
 D45   ROUNDED             5.906       5.906       0.000  LINE       0.000
 D46   ROUNDED             5.906       5.906       0.000  LINE       0.000
 D47   ROUNDED            13.780      13.780       0.000 FLASH       0.000
-D48   RECTANGULAR        21.654      15.748       0.000 FLASH       0.000
+D48   RECTANGULAR        35.433      24.606       0.000 FLASH      90.000
 D49   RECTANGULAR        17.716      11.811       0.000 FLASH      90.000
-D50   RECTANGULAR        35.433      24.606       0.000 FLASH      90.000
+D50   RECTANGULAR        21.654      15.748       0.000 FLASH       0.000
 D51   RECTANGULAR        21.654      15.748       0.000 FLASH      90.000
 D52   ROUNDED             5.906       5.906       0.000 FLASH       0.000
 D53   RECTANGULAR        23.622      15.748       0.000 FLASH       0.000

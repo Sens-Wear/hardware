@@ -4,9 +4,9 @@ D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R2-Debug\Output\Manufacturing\A
 ========================================================================================================================
 File Design Information:
 
-Date:       01/07/26
-Time:       17:44
-Revision:   38ca486f9c11d28f2237f2dba5ff28e7f0918d4d
+Date:       27/08/26
+Time:       07:21
+Revision:   62aa73b305cfe2e1260be05cfdb5580ca25ddc5a
 Variant:    No variations
 Units used: mm
 
@@ -35,7 +35,7 @@ Units used: mm
 "R68","620 R","BottomLayer","RESC1005X04N","25.7000","22.3830","0","RES SMD 620 OHM 1% 1/10W 0402"
 "R63","1 k","BottomLayer","RESC1005X04N","30.5078","12.4861","180","RES SMD 1K OHM 1% 1/10W 0402"
 "R55","267kO","BottomLayer","RESC1005X04N","36.7500","18.5850","270","Res Thick Film 0402 267K Ohm 1% 1/10W ±100ppm/°C Molded SMD Punched Carrier T/R"
-"R54","1 M","BottomLayer","RESC1005X04N","24.5828","15.7861","0","RES SMD 1M OHM 1% 1/10W 0402"
+"R54","22kO","BottomLayer","RESC1005X04N","24.5828","15.7861","0","Res Thick Film 0402 22K Ohm 1% 0.1W(1/10W) ±100ppm/C Pad SMD Automotive T/R"
 "L50","2.2 uH","BottomLayer","FP-DFE201612C-MFG","38.5750","18.8750","0","Inductor Power Shielded Wirewound 2.2uH 20% 1MHz Metal 1.8A 0.116Ohm DCR 0806 T/R"
 "C72","0.1 uF","BottomLayer","CAPC1005X05N","18.2000","12.4750","90","CAP CER 0.1UF 10V X5R 0402"
 "C71","0.1 uF","BottomLayer","CAPC1005X05N","17.9250","19.6750","90","CAP CER 0.1UF 10V X5R 0402"
@@ -71,9 +71,9 @@ Units used: mm
 "R62","1 k","BottomLayer","RESC1005X04N","25.0078","13.6500","90","RES SMD 1K OHM 1% 1/10W 0402"
 "U53","RP2354A","TopLayer","QFN40P700X700X90_HS-61N","27.2828","15.2750","0",""
 "X50","12MHz","BottomLayer","DFN165P250X80-4N","27.1327","13.7001","270","Parallel - Fundamental Quartz Crystal, 12MHz Nom"
-"T52","CSD87502Q2","BottomLayer","FP-DQK0006B-MFG","31.5750","9.1830","90","Transistor MOSFET Array Dual N-CH 30V 5A 6-Pin WSON T/R"
-"T51","CSD87502Q2","BottomLayer","FP-DQK0006B-MFG","23.6120","23.0000","90","Transistor MOSFET Array Dual N-CH 30V 5A 6-Pin WSON T/R"
-"T50","CSD87502Q2","BottomLayer","FP-DQK0006B-MFG","25.3350","9.2000","90","Transistor MOSFET Array Dual N-CH 30V 5A 6-Pin WSON T/R"
+"T52","NTLJD4116NT1G","BottomLayer","FP-DQK0006B-MFG","31.5750","9.1830","90","NTLJD4116NT1G Dual N-channel Mosfet Transistor, 2.5 A, 30 V, 6-PIN Wdfn"
+"T51","NTLJD4116NT1G","BottomLayer","FP-DQK0006B-MFG","23.6120","23.0000","90","NTLJD4116NT1G Dual N-channel Mosfet Transistor, 2.5 A, 30 V, 6-PIN Wdfn"
+"T50","NTLJD4116NT1G","BottomLayer","FP-DQK0006B-MFG","25.3350","9.2000","90","NTLJD4116NT1G Dual N-channel Mosfet Transistor, 2.5 A, 30 V, 6-PIN Wdfn"
 "D53","LTST-C155KGJRKT","TopLayer","LTST-C155KGJRKT","32.3870","9.2580","180","LED GREEN/RED CLEAR CHIP SMD"
 "D51","LTST-C155KGJRKT","TopLayer","LTST-C155KGJRKT","24.4000","23.0830","180","LED GREEN/RED CLEAR CHIP SMD"
 "D52","LTST-C155KGJRKT","TopLayer","LTST-C155KGJRKT","26.1480","9.2500","180","LED GREEN/RED CLEAR CHIP SMD"
