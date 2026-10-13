@@ -4,9 +4,9 @@ D:\WORK\Projects\SensWear\hardware-v1\SensWear-V1R1-Main\Output\Manufacturing\As
 ========================================================================================================================
 File Design Information:
 
-Date:       27/08/26
-Time:       07:55
-Revision:   38ca486f9c11d28f2237f2dba5ff28e7f0918d4d
+Date:       13/10/26
+Time:       18:17
+Revision:   5f3aa87769197aaa62ca1eec36fe4a278d35a1b4
 Variant:    No variations
 Units used: mm
 
@@ -48,7 +48,7 @@ Units used: mm
 "L6","3.5 nH","TopLayer","INDC1005X06N","31.5000","27.0250","180","Inductor Chip 3.5nH 0.1nH Tolerance 2-Pin 0402 Paper T/R"
 "L5","3.5 nH","TopLayer","INDC1005X06N","33.7750","29.2000","270","Inductor Chip 3.5nH 0.1nH Tolerance 2-Pin 0402 Paper T/R"
 "L4","2.7 nH","BottomLayer","INDC1005X06N","39.6016","29.7361","180","Inductor Chip 2.7nH 0.1nH Tolerance 2-Pin 0402 Paper T/R"
-"L3","4.7uH","TopLayer","INDC1005X06N","45.7266","31.8011","0","Inductor Power Chip Shielded Multi-Layer 4.7uH 20% 1MHz Ferrite 0.08A 0.78Ohm DCR 0603 T/R"
+"L3","4.7µH","TopLayer","INDC1005X06N","45.7266","31.8011","0","1MHz 300mA 300mA 4.7µH 1.08O ±20% 0402 SMD mount 1.1mm(Length)*800µm(height)"
 "L1","2.2 uH","TopLayer","FP-DFE201612C-MFG","69.1750","32.6000","180","Inductor Power Shielded Wirewound 2.2uH 20% 1MHz Metal 1.8A 0.116Ohm DCR 0806 T/R"
 "GND","TESTPAD","TopLayer","TEST_PAD","76.4250","29.1500","180","TESTPOINT PIN SMD"
 "FB1","BLM15AG121SN1D","TopLayer","INDC1005X06N","45.2516","30.3261","270","Ferrite Beads Multi-Layer 120Ohm 25% 100MHz 550mA 190mOhm DCR 0402 Paper T/R"

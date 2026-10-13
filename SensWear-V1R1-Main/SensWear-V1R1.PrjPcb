@@ -372,6 +372,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UBXRNRMH
 
+[Document20]
+DocumentPath=SensWear-V1R1-MainBoard-Battery.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AVZHVEMA
+
 [GeneratedDocument1]
 DocumentPath=Output\Manufacturing\Assembly\Bill of Materials\Bill of Materials-SensWear-V1R0.xlsx
 DItemRevisionGUID=
@@ -473,36 +490,36 @@ DocumentPath=Output\Manufacturing\BoardStack\Report Board Stack\SensWear-V1R1-Ma
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Version
-Value=1
+Name=ApprovedBy
+Value=Dariush Salami
 
 [Parameter2]
-Name=RevisionDate
-Value=31.08.2026
-
-[Parameter3]
-Name=Revision
-Value=C0
-
-[Parameter4]
-Name=Project
-Value=SensWear-V1R1
-
-[Parameter5]
-Name=Engineer
-Value=Yusein Ali
-
-[Parameter6]
-Name=DrawnBy
-Value=Yusein Ali
-
-[Parameter7]
 Name=BoardName
 Value=SensWear-Hub
 
+[Parameter3]
+Name=DrawnBy
+Value=Yusein Ali
+
+[Parameter4]
+Name=Engineer
+Value=Yusein Ali
+
+[Parameter5]
+Name=Project
+Value=SensWear-V1R1
+
+[Parameter6]
+Name=Revision
+Value=C0
+
+[Parameter7]
+Name=RevisionDate
+Value=31.08.2026
+
 [Parameter8]
-Name=ApprovedBy
-Value=Dariush Salami
+Name=Version
+Value=1
 
 [Configuration1]
 Name=Sources
@@ -1047,6 +1064,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
